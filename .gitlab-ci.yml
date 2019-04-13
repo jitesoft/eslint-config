@@ -1,6 +1,6 @@
 deploy:
   stage: deploy
-  image: jitesoft/node-base:slim
+  image: jitesoft/node-base:latest-slim
   before_script:
     - echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
     - npm whoami
