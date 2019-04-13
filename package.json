@@ -1,0 +1,36 @@
+{
+  "name": "@jitesoft/eslint-config",
+  "version": "1.0.0",
+  "description": "Semistandard bundled for simple modification by jitesoft org..",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "jitesoft",
+    "config"
+  ],
+  "peerDependencies": {
+    "eslint": ">=5",
+    "eslint-plugin-node": "*",
+    "eslint-plugin-promise": "*",
+    "eslint-plugin-standard": "*",
+    "eslint-plugin-es": "*",
+    "eslint-plugin-import": "*",
+    "eslint-plugin-jest": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/jitesoft/open-source/javascript/eslint-config"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/jitesoft/open-source/javascript/eslint-config/issues"
+  },
+  "dependencies": {
+    "eslint-config-standard": "*"
+  },
+  "author": {
+    "name": "Johannes Tegnér",
+    "email": "johannes@jitesoft.com",
+    "url": "https://jitesoft.com"
+  },
+  "license": "MIT"
+}

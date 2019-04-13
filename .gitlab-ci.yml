@@ -1,0 +1,14 @@
+deploy:
+  stage: deploy
+  image: jitesoft/node-base:slim
+  before_script:
+    - echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
+    - npm whoami
+    - npm config set git-tag-version false
+    - npm version ${CI_COMMIT_TAG}
+  script:
+    - npm publish --access public
+  after_script:
+    - rm -f ~/.npmrc
+  only:
+    - tags
