@@ -17,9 +17,6 @@
     "eslint-plugin-import": "*",
     "eslint-plugin-jest": "*"
   },
-  "bundledDependencies": [
-    "eslint-config-standard"
-  ],
   "repository": {
     "type": "git",
     "url": "https://gitlab.com/jitesoft/open-source/javascript/eslint-config"

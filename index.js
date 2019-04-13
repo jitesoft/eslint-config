@@ -1,5 +1,5 @@
 module.exports = {
-    extends: './node_modules/eslint-config-standard/index.js',
+    extends: 'standard',
     rules: {
         semi: [
             2,
