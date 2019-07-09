@@ -9,7 +9,7 @@
     "config"
   ],
   "peerDependencies": {
-    "eslint": ">=5"
+    "eslint": ">=6"
   },
   "repository": {
     "type": "git",
@@ -19,13 +19,13 @@
     "url": "https://gitlab.com/jitesoft/open-source/javascript/eslint-config/issues"
   },
   "dependencies": {
-    "eslint-config-standard": "*",
-    "eslint-plugin-node": "*",
-    "eslint-plugin-promise": "*",
-    "eslint-plugin-standard": "*",
-    "eslint-plugin-es": "*",
-    "eslint-plugin-import": "*",
-    "eslint-plugin-jest": "*"
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-es": "^1.4.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jest": "^22.7.2"
   },
   "author": {
     "name": "Johannes Tegnér",
