@@ -25,12 +25,18 @@
     "eslint-plugin-standard": "^4.0.0",
     "eslint-plugin-es": "^1.4.0",
     "eslint-plugin-import": "^2.18.0",
-    "eslint-plugin-jest": "^22.7.2"
+    "eslint-plugin-jest": "^22.7.2",
+    "snyk": "^1.192.4"
   },
   "author": {
     "name": "Johannes Tegnér",
     "email": "johannes@jitesoft.com",
     "url": "https://jitesoft.com"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
