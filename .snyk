@@ -6,3 +6,25 @@ patch:
   SNYK-JS-LODASH-450202:
     - eslint-plugin-import > lodash:
         patched: '2019-07-09T20:47:20.309Z'
+      snyk > @snyk/dep-graph > lodash:
+        patched: '2019-07-09T21:02:25.567Z'
+    - snyk > inquirer > lodash:
+        patched: '2019-07-09T21:02:25.567Z'
+    - snyk > snyk-config > lodash:
+        patched: '2019-07-09T21:02:25.567Z'
+    - snyk > snyk-mvn-plugin > lodash:
+        patched: '2019-07-09T21:02:25.567Z'
+    - snyk > snyk-nodejs-lockfile-parser > lodash:
+        patched: '2019-07-09T21:02:25.567Z'
+    - snyk > snyk-nuget-plugin > lodash:
+        patched: '2019-07-09T21:02:25.567Z'
+    - snyk > @snyk/dep-graph > graphlib > lodash:
+        patched: '2019-07-09T21:02:25.567Z'
+    - snyk > snyk-go-plugin > graphlib > lodash:
+        patched: '2019-07-09T21:02:25.567Z'
+    - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
+        patched: '2019-07-09T21:02:25.567Z'
+    - snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash:
+        patched: '2019-07-09T21:02:25.567Z'
+    - snyk > lodash:
+        patched: '2019-07-09T21:02:25.567Z'
