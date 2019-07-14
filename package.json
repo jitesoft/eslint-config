@@ -1,7 +1,7 @@
 {
   "name": "@jitesoft/eslint-config",
   "version": "1.0.0",
-  "description": "Semistandard bundled for simple modification by jitesoft org..",
+  "description": "Semi-standard bundled for simple modification by jitesoft org..",
   "main": "index.js",
   "keywords": [
     "eslint",
@@ -19,14 +19,13 @@
     "url": "https://gitlab.com/jitesoft/open-source/javascript/eslint-config/issues"
   },
   "dependencies": {
-    "eslint-config-standard": "^12.0.0",
+    "eslint-config-standard": "^13.0.1",
     "eslint-plugin-es": "^1.4.0",
     "eslint-plugin-import": "^2.18.0",
     "eslint-plugin-jest": "^22.7.2",
     "eslint-plugin-node": "^9.1.0",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.0",
-    "snyk": "^1.192.4"
+    "eslint-plugin-standard": "^4.0.0"
   },
   "author": {
     "name": "Johannes Tegnér",
@@ -35,9 +34,6 @@
   },
   "license": "MIT",
   "scripts": {
-    "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect",
-    "test": "snyk test"
-  },
-  "snyk": true
+    "test": "npm audit"
+  }
 }
