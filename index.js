@@ -5,7 +5,8 @@ module.exports = {
             2,
             'always'
         ],
-        'no-extra-semi': 2
+        'no-extra-semi': 2,
+        'lines-between-class-members': 0
     },
     env: {
         'shared-node-browser': true,
