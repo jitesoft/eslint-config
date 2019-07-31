@@ -1,5 +1,8 @@
 # @jitesoft/eslint-config
 
+[![Known Vulnerabilities](https://dev.snyk.io/test/npm/@jitesoft/eslint-config/badge.svg)](https://dev.snyk.io/test/npm/@jitesoft/eslint-config)
+[![pipeline status](https://gitlab.com/jitesoft/open-source/javascript/eslint-config/badges/master/pipeline.svg)](https://gitlab.com/jitesoft/open-source/javascript/eslint-config/commits/master)
+
 Semi-standard shareable config to make it easier to modify by Jitesoft organization.
 
 Installation:
