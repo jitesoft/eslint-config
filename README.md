@@ -1,5 +1,6 @@
 # @jitesoft/eslint-config
 
+[![npm (scoped)](https://img.shields.io/npm/v/@jitesoft/eslint-config)](https://www.npmjs.com/package/@jitesoft/eslint-config)
 [![Known Vulnerabilities](https://dev.snyk.io/test/npm/@jitesoft/eslint-config/badge.svg)](https://dev.snyk.io/test/npm/@jitesoft/eslint-config)
 [![npm](https://img.shields.io/npm/dt/@jitesoft/eslint-config)](https://www.npmjs.com/package/@jitesoft/eslint-config)
 [![Back project](https://img.shields.io/badge/Open%20Collective-Tip%20the%20devs!-blue.svg)](https://opencollective.com/jitesoft-open-source)
