@@ -9,7 +9,7 @@
     "config"
   ],
   "peerDependencies": {
-    "eslint": ">=6.2.2"
+    "eslint": ">=6.3"
   },
   "repository": {
     "type": "git",
