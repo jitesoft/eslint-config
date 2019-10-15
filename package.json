@@ -8,10 +8,6 @@
     "jitesoft",
     "config"
   ],
-  "peerDependencies": {
-    "eslint": ">=6.3",
-    "eslint-plugin-jsx-a11y": "6.2.3"
-  },
   "repository": {
     "type": "git",
     "url": "https://gitlab.com/jitesoft/open-source/javascript/eslint-config"
@@ -23,13 +19,17 @@
     "eslint-config-standard": "14.1.0",
     "eslint-plugin-es": "2.0.0",
     "eslint-plugin-import": "2.18.2",
-    "eslint-plugin-jest": "22.17.0",
+    "eslint-plugin-jest": "22.19.0",
     "eslint-plugin-node": "10.0.0",
     "eslint-plugin-promise": "4.2.1",
     "eslint-plugin-standard": "4.0.1"
   },
   "devDependencies": {
-    "eslint": "6.3.0",
+    "eslint": "6.5.1",
+    "eslint-plugin-jsx-a11y": "6.2.3"
+  },
+  "peerDependencies": {
+    "eslint": ">=6.5",
     "eslint-plugin-jsx-a11y": "6.2.3"
   },
   "author": {
