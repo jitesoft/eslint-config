@@ -1,6 +1,5 @@
 {
   "name": "@jitesoft/eslint-config",
-  "version": "1.0.0",
   "description": "Semi-standard bundled for simple modification by Jitesoft org.",
   "main": "index.js",
   "keywords": [
@@ -25,12 +24,11 @@
     "eslint-plugin-standard": "4.0.1"
   },
   "devDependencies": {
-    "eslint": "6.6.0",
+    "eslint": "6.7.0",
     "eslint-plugin-jsx-a11y": "6.2.3"
   },
   "peerDependencies": {
-    "eslint": ">=6.6",
-    "eslint-plugin-jsx-a11y": "6.2.3"
+    "eslint": ">=6.7"
   },
   "author": {
     "name": "Johannes Tegnér",

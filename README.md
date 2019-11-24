@@ -19,7 +19,7 @@ yarn add --dev @jitesoft/eslint-config
 
 There are four configurations available:
 
-`default`, `node`, `browser` and `jest`.  
+`default`, `node`, `browser`, `jsx` and `jest`.  
  
 As expected, the Node and Browser configurations are set to use globals for the environment.
 The `default` configuration is a mixed node/web configuration, while the `jest` configuration

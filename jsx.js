@@ -1,6 +1,6 @@
 module.exports = {
-  extends: ["@jitesoft/eslint-config/browser", "plugin:jsx-a11y/strict" ],
-  "plugins": [
-    "jsx-a11y"
-  ]
+  extends: ['@jitesoft/eslint-config/browser'],
+  ecmaFeatures: {
+    jsx: true
+  }
 };

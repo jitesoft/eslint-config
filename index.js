@@ -6,10 +6,16 @@ module.exports = {
             'always'
         ],
         'no-extra-semi': 2,
-        'lines-between-class-members': 0
+        'lines-between-class-members': 0,
+        noInlineConfig: false
+    },
+    parserOptions: {
+      ecmaVersion: 2020,
+      sourceType: "module"
     },
     env: {
-        'shared-node-browser': true,
-        es6: true
+        node: true,
+        browser: true,
+        es2020: true
     }
 };
