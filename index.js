@@ -7,7 +7,7 @@ module.exports = {
         ],
         'no-extra-semi': 2,
         'lines-between-class-members': 0,
-        noInlineConfig: false
+        noInlineConfig: 0
     },
     parserOptions: {
       ecmaVersion: 2020,
