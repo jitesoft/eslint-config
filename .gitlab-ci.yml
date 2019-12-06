@@ -6,7 +6,16 @@ stages:
   - deploy
 test:
   extends: .npm:test
+  tags:
+    - npm
+
 scan:
   extends: .scan:npm
+  tags:
+    - amd
+
 deploy:
   extends: .npm:deploy
+  tags:
+    - npm
+    - protected
