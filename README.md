@@ -42,3 +42,34 @@ To be able to use the other configurations, the whole name have to be included:
   "extends": "@jitesoft/eslint-config/jest"
 }
 ```
+
+## QA
+
+Q:   
+Why?
+  
+A:   
+For an organization it's easier to keep a bundle of configurations than using a million little packages in each package.json file.
+This package contains all the standards used by Jitesoft.  
+Further more, if we wish to change any rules, it's a lot easier to do that in our own package than propagate it through settings files in all
+repositories!
+
+Q:  
+Why hard versions in the package.json file?
+
+A:  
+To make sure that all the packages are in the exact version that we thought they where at each publish, the versions
+of the sub-packages have been set to exact versions. It's hard to test and make sure that everything works as intended in case
+some users use later or earlier versions (even if it is patch versions!) without knowing.
+
+Q:  
+Why semistandard and not just standard?!
+
+A:  
+Cause semicolon is best. Thats why!
+
+Q:  
+Why spaces instead of tabs?!
+
+A:  
+....
