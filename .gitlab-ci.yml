@@ -4,18 +4,13 @@ include:
 stages:
   - test
   - deploy
+
 test:
   extends: .npm:test
-  tags:
-    - npm
 
 scan:
   extends: .scan:npm
-  tags:
-    - amd
 
 deploy:
+  tags: [ jitesoft, protected, npm ]
   extends: .npm:deploy
-  tags:
-    - npm
-    - protected
