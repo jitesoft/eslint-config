@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "eslint-config-standard": "14.1.1",
-    "eslint-plugin-es": "3.0.0",
+    "eslint-plugin-es": "3.0.1",
     "eslint-plugin-import": "2.20.2",
     "eslint-plugin-jest": "23.10.0",
     "eslint-plugin-node": "11.1.0",
