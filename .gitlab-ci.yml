@@ -1,8 +1,11 @@
 include:
-  - https://gitlab.com/jitesoft/gitlab-ci-lib/raw/master/dependency_scanning.yml
-  - https://gitlab.com/jitesoft/gitlab-ci-lib/raw/master/js_common.yml
+  - remote: https://gitlab.com/jitesoft/gitlab-ci-lib/raw/master/Scan/npm.yml
+  - remote: https://gitlab.com/jitesoft/gitlab-ci-lib/raw/master/license_management.yml
+  - remote: https://gitlab.com/jitesoft/gitlab-ci-lib/raw/master/js_common.yml
+
 stages:
   - test
+  - scan
   - deploy
 
 test:
@@ -12,5 +15,4 @@ scan:
   extends: .scan:npm
 
 deploy:
-  tags: [ jitesoft, protected, npm ]
   extends: .npm:deploy
