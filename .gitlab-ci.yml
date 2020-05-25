@@ -11,8 +11,5 @@ stages:
 test:
   extends: .npm:test
 
-scan:
-  extends: .scan:npm
-
 deploy:
   extends: .npm:deploy
