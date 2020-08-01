@@ -1,5 +1,5 @@
 module.exports = {
-    extends: "@jitesoft",
+    extends: '@jitesoft',
     globals: {
         window: true,
         document: true,
