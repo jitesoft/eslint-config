@@ -4,10 +4,10 @@ module.exports = {
     'jest'
   ],
   globals: {
-    'describe': true,
-    'test': true,
-    'it': true,
-    'expect': true,
+    describe: true,
+    test: true,
+    it: true,
+    expect: true,
   },
   env: {
     'jest/globals': true
