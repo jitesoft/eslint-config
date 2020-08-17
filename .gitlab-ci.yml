@@ -1,15 +1,5 @@
+variables:
+  NPM_BUILD_DISABLED: "true"
+
 include:
-  - remote: https://gitlab.com/jitesoft/gitlab-ci-lib/raw/master/Scan/npm.yml
-  - remote: https://gitlab.com/jitesoft/gitlab-ci-lib/raw/master/license_management.yml
-  - remote: https://gitlab.com/jitesoft/gitlab-ci-lib/raw/master/js_common.yml
-
-stages:
-  - test
-  - scan
-  - deploy
-
-test:
-  extends: .npm:test
-
-deploy:
-  extends: .npm:deploy
+  - remote: https://gitlab.com/jitesoft/gitlab-ci-lib/-/raw/master/Auto/npm.yml
