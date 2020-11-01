@@ -1,5 +1,6 @@
 {
   "name": "@jitesoft/eslint-config",
+  "version": "0.0.0",
   "description": "Semi-standard bundled for simple modification by Jitesoft org.",
   "main": "index.js",
   "keywords": [
