@@ -16,7 +16,7 @@
     "url": "https://gitlab.com/jitesoft/open-source/javascript/eslint-config/issues"
   },
   "dependencies": {
-    "eslint-config-standard": "16.0.1",
+    "eslint-config-standard": "16.0.2",
     "eslint-plugin-es": "3.0.1",
     "eslint-plugin-import": "2.22.1",
     "eslint-plugin-jest": "24.1.0",
