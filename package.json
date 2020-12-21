@@ -25,10 +25,10 @@
     "eslint-plugin-standard": "5.0.0"
   },
   "devDependencies": {
-    "eslint": "7.14"
+    "eslint": "7.16.0"
   },
   "peerDependencies": {
-    "eslint": ">=7.14"
+    "eslint": ">=7.16"
   },
   "author": {
     "name": "Johannes Tegnér",
