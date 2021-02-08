@@ -10,12 +10,12 @@ module.exports = {
         noInlineConfig: 0
     },
     parserOptions: {
-      ecmaVersion: 2020,
+      ecmaVersion: 12,
       sourceType: 'module'
     },
     env: {
         node: true,
         browser: true,
-        es2020: true
+        es2021: true
     }
 };
