@@ -13,6 +13,7 @@
     "url": "https://gitlab.com/jitesoft/open-source/javascript/eslint-config"
   },
   "bugs": {
+    "email": "sec@jitesoft.com",
     "url": "https://gitlab.com/jitesoft/open-source/javascript/eslint-config/issues"
   },
   "dependencies": {
