@@ -7,6 +7,8 @@ module.exports = {
     },
     env: {
         node: false,
-        browser: true
+        browser: true,
+        commonjs: true,
+        'shared-node-browser': false
     }
 };
