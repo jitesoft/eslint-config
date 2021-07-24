@@ -14,21 +14,21 @@
   },
   "bugs": {
     "email": "sec@jitesoft.com",
-    "url": "https://gitlab.com/jitesoft/open-source/javascript/eslint-config/issues"
+    "url": "https://github.com/jitesoft/eslint-config/issues"
   },
   "dependencies": {
     "eslint-config-standard": "16.0.3",
     "eslint-plugin-es": "4.1.0",
     "eslint-plugin-import": "2.23.4",
-    "eslint-plugin-jest": "24.3.6",
+    "eslint-plugin-jest": "24.4.0",
     "eslint-plugin-node": "11.1.0",
-    "eslint-plugin-promise": "^5.1.0"
+    "eslint-plugin-promise": "5.1.0"
   },
   "devDependencies": {
-    "eslint": "^7.27.0"
+    "eslint": "^7.31.0"
   },
   "peerDependencies": {
-    "eslint": ">=7.27"
+    "eslint": ">=7.31"
   },
   "author": {
     "name": "Johannes Tegnér",
