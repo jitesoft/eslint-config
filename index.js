@@ -10,7 +10,7 @@ module.exports = {
         noInlineConfig: 0
     },
     parserOptions: {
-      ecmaVersion: 12,
+      ecmaVersion: 13,
       sourceType: 'module'
     },
     env: {
