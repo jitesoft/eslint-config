@@ -28,7 +28,7 @@
     "eslint": "^8.2.0"
   },
   "peerDependencies": {
-    "eslint": ">=8.2"
+    "eslint": ">=8"
   },
   "author": {
     "name": "Johannes Tegnér",
