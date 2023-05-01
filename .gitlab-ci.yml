@@ -1,5 +1,6 @@
 variables:
   NPM_BUILD_DISABLED: "true"
+  NODE_AUTO_SKIP: "14"
 
 include:
   - remote: https://gitlab.com/jitesoft/gitlab-ci-lib/-/raw/master/Auto/npm.yml
