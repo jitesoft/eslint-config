@@ -19,13 +19,13 @@
   "dependencies": {
     "eslint-config-standard": "^17.1.0",
     "eslint-plugin-es": "4.1.0",
-    "eslint-plugin-import": "2.29.0",
+    "eslint-plugin-import": "2.29.1",
     "eslint-plugin-jest": "27.6.0",
     "eslint-plugin-promise": "6.1.1",
-    "eslint-plugin-n": "16.3.0"
+    "eslint-plugin-n": "16.5.0"
   },
   "devDependencies": {
-    "eslint": "^8.53"
+    "eslint": "^8.56"
   },
   "peerDependencies": {
     "eslint": ">=8"
